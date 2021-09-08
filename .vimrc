@@ -11,4 +11,4 @@ Plugin 'roxma/nvim-yarp'
 
 Plugin 'tbodt/deoplete-tabnine' , { 'do': './install.sh' }
 call vundle#end()
-let g:deoplete#enable_at_startup = 1                                                                                                                                                                                                            ~                                                                                                                                                                                                                ~                                                                                                                                                                                                                ~                                                    
+let g:deoplete#enable_at_startup = 1
