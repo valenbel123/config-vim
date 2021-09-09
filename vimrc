@@ -18,6 +18,12 @@ Plugin 'sheerun/vim-polyglot'
 
 Plugin 'bling/vim-airline'
 
+Plugin 'alvan/vim-closetag'
+
+Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plugin 'junegunn/fzf.vim'
+
+
 call vundle#end()
 
 
@@ -31,6 +37,7 @@ let g:coc_global_extensions = [
 	\ 'coc-css',
 	\ 'coc-pyright',
 	\ 'coc-sh',
+	\ 'coc-pairs',
 	\ ]	
 
 
@@ -38,6 +45,6 @@ let g:coc_global_extensions = [
 syntax enable
 colorscheme dracula
 
-:let g:NERDTreeWinSize=50
-
+let g:NERDTreeWinSize=50
+let NERDTreeMinimalUI=1
 
