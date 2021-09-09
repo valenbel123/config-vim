@@ -7,7 +7,7 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
-Plugin 'neoclide/coc.nvim', {'branch': 'release', 'do': 'yarn install'}
+Plugin 'neoclide/coc.nvim', {'branch': 'release'}
 Plugin 'dracula/vim'
 
 Plugin 'scrooloose/nerdtree'
