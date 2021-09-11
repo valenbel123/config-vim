@@ -11,7 +11,6 @@ Plugin 'neoclide/coc.nvim', {'branch': 'release'}
 Plugin 'dracula/vim'
 
 Plugin 'scrooloose/nerdtree'
-Plugin 'ryanoasis/vim-devicons'
 Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 Plugin 'sheerun/vim-polyglot'
