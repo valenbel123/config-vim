@@ -1,6 +1,7 @@
 set encoding=UTF-8
 
 set number
+set nowrap
 set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
