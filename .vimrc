@@ -1,8 +1,7 @@
 set encoding=UTF-8
 set t_Co=256
 
-set shortmess+=T
-set cmdheight=2
+let g:netrw_silent = 1
 
 set number
 set nowrap
@@ -47,7 +46,7 @@ let g:coc_global_extensions = [
 
 
 syntax enable
-silent! colorscheme dracula
+colorscheme dracula
 
 let g:NERDTreeWinSize=50
 let NERDTreeMinimalUI=1
