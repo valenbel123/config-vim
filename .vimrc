@@ -1,7 +1,7 @@
 set encoding=UTF-8
 set t_Co=256
 
-set shortmess=a
+set shortmess+=T
 set cmdheight=2
 
 set number
