@@ -1,6 +1,8 @@
 set encoding=UTF-8
 set t_Co=256
 
+set cmdheight=2
+
 set number
 set nowrap
 set rtp+=~/.vim/bundle/Vundle.vim
