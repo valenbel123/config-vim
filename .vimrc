@@ -1,7 +1,6 @@
 set encoding=UTF-8
 set t_Co=256
 
-let g:netrw_silent = 1
 
 set number
 set nowrap
