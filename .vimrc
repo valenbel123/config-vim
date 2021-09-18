@@ -9,7 +9,7 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
-Plugin 'neoclide/coc.nvim', {'branch': 'release'}
+silent! Plugin 'neoclide/coc.nvim', {'branch': 'release'}
 Plugin 'dracula/vim'
 
 Plugin 'scrooloose/nerdtree'
