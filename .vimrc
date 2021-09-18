@@ -47,7 +47,7 @@ let g:coc_global_extensions = [
 
 
 syntax enable
-colorscheme dracula
+silent! colorscheme dracula
 
 let g:NERDTreeWinSize=50
 let NERDTreeMinimalUI=1
