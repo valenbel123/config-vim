@@ -1,6 +1,8 @@
 set encoding=UTF-8
 set t_Co=256
 
+set silent
+
 set number
 set nowrap
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -44,7 +46,7 @@ let g:coc_global_extensions = [
 
 
 syntax enable
-colorscheme dracula
+" colorscheme dracula
 
 let g:NERDTreeWinSize=50
 let NERDTreeMinimalUI=1
