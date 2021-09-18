@@ -6,7 +6,7 @@ set number
 set nowrap
 set rtp+=~/.vim/bundle/Vundle.vim
 
-call vundle#begin()
+silent! call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
@@ -45,7 +45,7 @@ let g:coc_global_extensions = [
 
 
 syntax enable
-colorscheme dracula
+silent! colorscheme dracula
 
 let g:NERDTreeWinSize=50
 let NERDTreeMinimalUI=1
