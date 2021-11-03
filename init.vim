@@ -10,7 +10,7 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
-Plugin 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
+Plugin 'neoclide/coc.nvim', {'branch': 'master'}
 Plugin 'dracula/vim'
 
 Plugin 'scrooloose/nerdtree'
