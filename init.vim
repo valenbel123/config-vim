@@ -55,4 +55,4 @@ let g:NERDTreeWinSize=50
 let NERDTreeMinimalUI=1
 
 let g:user42 = 'vrogiste'
-let g:mail42 = 'vrogiste@student.42.fr'
+let g:mail42 = 'vrogiste@student.19.fr'
