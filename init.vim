@@ -4,6 +4,8 @@ set t_Co=256
 
 set number
 set nowrap
+set noexpandtab
+set tabstop=4
 set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
@@ -24,6 +26,8 @@ Plugin 'alvan/vim-closetag'
 
 Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plugin 'junegunn/fzf.vim'
+
+Plugin '42Paris/42header'
 
 
 call vundle#end()
@@ -50,3 +54,5 @@ colorscheme dracula
 let g:NERDTreeWinSize=50
 let NERDTreeMinimalUI=1
 
+let g:user42 = 'vrogiste'
+let g:mail42 = 'vrogiste@student.42.fr'
